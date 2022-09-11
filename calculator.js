@@ -14,7 +14,7 @@ function display(){
     console.log(x,typeof(x))
     let y=eval(x);
     document.getElementById("input1").innerHTML=y;
-    b="";
+    b=y;
 }
 
 function last(){ 
